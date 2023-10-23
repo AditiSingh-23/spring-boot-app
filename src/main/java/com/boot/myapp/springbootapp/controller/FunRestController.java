@@ -12,5 +12,10 @@ public class FunRestController {
         return "Hello World";
     }
 
+    @GetMapping("/hello")
+    public String hello()
+    {
+        return "Welcome to my Boot Application";
+    }
 
 }
